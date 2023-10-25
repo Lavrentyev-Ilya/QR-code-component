@@ -1,0 +1,10 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: ;
+}
+.QrWrapBlock{
+   background-color: #D5E1EF;
+   margin: 100px 50px 100px 50px;
+
+}
