@@ -2,27 +2,59 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
+   font-family: Outfit;
 }
 .QrWrapBlock{
-   background-color: #D5E1EF;
+   background-color: hsl(212, 45%, 89%);
    margin: 100px 50px 100px 50px;
-   width: 100%;
+   width: 1440px;
    display: flex;
-   justify-content: center;
+   flex-direction: column;
    align-items: center;
    padding: 100px;
+   position: relative;
 }
 .QrCodeWrap{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    background-color: #ffffff;
-   padding: 15px;
+   padding: 10px;
+   border-radius: 14px;
+   width: 180px;
 }
 .QrCodeImageBlock{
-   width: 200px;
+   border-radius: 8px;
+   overflow: hidden;
+   position: relative;
+   width: 180px;
+   height: 180px;
 }
 .QrCodeImageBlock img{
    width: 100%;
    object-fit: contain;
+   position: absolute;
 }
-.QrTextBl_1, .QrTextBl_2{
-   width: 100%;
+.QrTextWrap{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+.QrTextWrap p{
+   margin: 0;
+}
+.QrTextBl_1{
+   font-weight: 800;
+   margin: 20px 0px 12px 0px;
+   font-size: 15px;
+}
+.QrTextBl_2{
+   font-weight: 400;
+   font-size: 12px;
+   margin-bottom: 20px;
+}
+.attribution{
+   position: absolute;
+   left: 10px;
+   bottom: 10px;
 }
